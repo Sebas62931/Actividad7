@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contenido de Páginas y Recetas</title>
+    <style>
+        body {
+        background-color: #111;
+        color: white;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+
+        h1, p {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        li {
+            margin: 5px 0;
+        }
+
+        a {
+            color: #00f;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .alumno {
+            margin-top: 30px;
+            font-weight: bold;
+        }
+
+        .caja {
+            border: 4px solid #535609;
+            max-width: 100%;
+            margin: 40px auto;
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            max-width: 903px;
+            margin: 0 auto;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid olive;
+        }
+
+        caption {
+            font-size: 20px;
+            font-weight: bold;
+            color: blue;
+            margin: 10px;
+        }
+
+        img {
+            width: 300px;
+            height: 225px;
+            object-fit: cover;
+        }
+
+        th, td {
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Bienvenido al contenido de ejercicios y recetas</h1>
+    <p>Explora los siguientes ejercicios:</p>
+    <ul>
+        <li><a href="ej01_una_imagen.html">Ejercicio 1</a></li>
+        <li><a href="ej02_una_imagenenoexiste.html">Ejercicio 2</a></li>
+        <li><a href="ej03_una_imagenconenlace.html">Ejercicio 3</a></li>
+        <li><a href="ej04_reproducir_audio.html">Ejercicio 4</a></li>
+        <li><a href="ej05_reproducir_video.html">Ejercicio 5</a></li>
+        <li><a href="ej06_reproducir_video_youtube.html">Ejercicio 6</a></li>
+        <li><a href="ej07_una_imagenfavicon.html">Ejercicio 7</a></li>
+        <li><a href="ej08_una_imagenfigure.html">Ejercicio 8</a></li>
+        <li><a href="ej09_obras_literarias.html">Ejercicio 9</a></li>
+        <li><a href="ej10_papas_fritas.html">Ejercicio 10</a></li>
+    </ul>
+
+    <p class="alumno">Alumno: SEBASTIAN FERNANDO VALENCIA TALANCHA</p>
+
+    <div class="caja">
+        <table>
+            <caption>RECETA DE LA COCINA PERUANA</caption>
+            <tr>
+                <th>Salchipapas</th>
+                <th>Lomo saltado</th>
+                <th>Ceviche de pescado</th>
+            </tr>
+            <tr>
+                <td><a href="salchipapas.html"><img src="img/salchipapas.jpg" alt="Salchipapas" title="Salchipapas"></a></td>
+                <td><a href="lomo_saltado.html"><img src="img/lomosaltado.jpg" alt="Lomo Saltado" title="Lomo Saltado"></a></td>
+                <td><a href="ceviche_de_pescado.html"><img src="img/ceviche_peruano.jpg" alt="Ceviche de pescado" title="Ceviche de pescado"></a></td>
+            </tr>
+            <tr>
+                <th>Arroz con pollo</th>
+                <th>Causa rellena</th>
+                <th>Rocoto relleno</th>
+            </tr>
+            <tr>
+                <td><a href="arroz_con_pollo.html"><img src="img/arrozconpollo.jpg" alt="Arroz con pollo" title="Arroz con pollo"></a></td>
+                <td><a href="causa_rellena.html"><img src="img/causa_rellena.jpg" alt="Causa rellena" title="Causa rellena"></a></td>
+                <td><a href="rocoto_relleno.html"><img src="img/rocoto_relleno.jpg" alt="Rocoto relleno" title="Rocoto relleno"></a></td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+</html>
